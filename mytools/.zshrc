@@ -126,3 +126,7 @@ BULLETTRAIN_PROMPT_ORDER=(
 source $ZSH/oh-my-zsh.sh
 
 GIT_REPOS=~/gitrepos
+
+#JAVA HOME
+alias j11="export JAVA_HOME=/usr/libexec/java_home -v 11; java -version"
+alias j17="export JAVA_HOME=/usr/libexec/java_home -v 17; java -version"
